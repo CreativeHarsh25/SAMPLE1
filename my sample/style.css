@@ -10,9 +10,6 @@
     text-decoration: none;
     
 }
-
-
-
 header img{
     filter: invert(1);
 }
@@ -35,21 +32,23 @@ body{
 header{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;  
+    justify-content: space-between;
 
 }
 header img{
     margin: 15px 0px 0px 30px;
 }
 header div{
-    padding: 3em; 
+    padding: 2em;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 
 }
 header div li{
     display: flex;
-    padding: 1em;
+    padding: 1em; 
+    justify-content: space-between;
     color: white;
     font-family: Opificio;
     letter-spacing: 1.5px;
@@ -61,7 +60,7 @@ header div li:hover{
     color: black;
 }
 .container1{
-    display: inline-flex;
+    display: inline-flex; 
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -102,51 +101,39 @@ header div li:hover{
     font-size: large;
 }
 
+.container1 img{
+filter: invert(1);
+
+}
+
 footer{
 
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 }
 
 footer div{
 
     display: flex;
     flex-direction:row ;
-    margin-left: 20px;
-    
+   
+}
+footer div li {
+
+display:flex ;
+flex-direction: row;
+justify-content: space-between;
+color: white;
+font-family: Opificio;
+letter-spacing: 1px;
+font-size: large;
+padding: 200em; 
+transition: cubic-bezier(0.755, 0.05, 0.855, 0.06);
 
 }
 
-footer div li{
+footer div li :hover{
 
-    display:flex ;
-    flex-direction: row;
-    justify-self: space-between;
-    color: rgb(255, 255, 255);
-    font-family: Opificio;
-    letter-spacing: 1.5px;
-    font-size: large;
-     padding: 3em; 
-     margin-bottom: 1em;
-
-}   
-
-
-footer div li:hover{
-
-color :greenyellow;
-
+    color:black;
+    background-color: white;
 }
-footer div p{
-    display: flex;
-    flex-direction: row;
-    color :wheat;
-    margin-top: 3.55em;
-    padding-left: 180px;
-}
-
-
-
-  
- 
